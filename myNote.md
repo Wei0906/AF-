@@ -1,8 +1,8 @@
 # 修改檔案時間 
 ``` powershell
 Set-ItemProperty -Path <文件路徑> -Name LastWriteTime -Value <新日期和時間>
-Set-ItemProperty -Path \\sqlsvr\gcesys\_UPGRADE\bpmp060.pbd -Name LastWriteTime -Value '2023/10/22 12:42'
-Set-ItemProperty -Path \\sqlsvr\gcesys\_UPGRADE\bpm_chkpo.exe -Name LastWriteTime -Value '2023/09/27 10:13'
+Set-ItemProperty -Path filepath+filename -Name LastWriteTime -Value '2023/10/22 12:42'
+Set-ItemProperty -Path d:\test.exe -Name LastWriteTime -Value '2023/09/27 10:13'
 ```
 # 表單常用的語法集
 ## 以docid 及登入者ID 開啟文管系統
